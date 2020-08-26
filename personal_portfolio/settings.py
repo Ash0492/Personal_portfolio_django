@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'j8=#fi2)i@7#jr7$c2p=bf!vs##0il%pefqh99#blvtrvief)p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ash0492.pythonanywhere.com']
 
 
 # Application definition
@@ -121,13 +121,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = [
-    "/Users/kashyup/Desktop/python/django/personal_portfolio-project/portfolio/static/portfolio"
-
-
-]
-
-
 
 MEDIA_URL = '/media/'
 
